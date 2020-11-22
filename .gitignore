@@ -1,0 +1,12 @@
+matrix/ex5.mtx
+matrix/pores_1.mtx
+matrix/nos4.mtx
+matrix/bcsstk04.mtx
+matrix/lund_b.mtx
+matrix/s2rmt3m1.mtx
+matrix/fv3.mtx
+matrix/cell1.mtx
+matrix/TSOPF_RS_b9_c6.mtx
+matrix/circuit_3.mtx
+
+.ipynb_checkpoints/*
