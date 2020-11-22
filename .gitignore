@@ -10,3 +10,5 @@ matrix/TSOPF_RS_b9_c6.mtx
 matrix/circuit_3.mtx
 
 .ipynb_checkpoints/*
+
+matrix/test1_*
