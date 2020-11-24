@@ -3,6 +3,15 @@
 This repository includes source for experiments in the preprint [Computing the matrix fractional power based on the double exponential formula, arXiv: hoge.fuga](https://example.com/).
 
 ## How to run the code?
+
+1. Install Julia and set path.
+1. `git clone https://github.com/f-ttok/article-powmde.git`
+1. `julia install_packages.jl`
+1. `julia download_matrices.jl`
+1. `julia generate_matrices.jl`
+1. `julia run_alltests.jl`
+
+### Details
 Our code is tested on the following environment:
 
 - OS: Linux (Ubuntu 20.04)
