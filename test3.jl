@@ -63,6 +63,3 @@ function main()
     end
     writedlm("result/test3.csv", Data, ',')
 end
-
-# compute_refsol()
-# main()

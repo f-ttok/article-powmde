@@ -9,7 +9,7 @@ using SparseArrays
 include("./algorithms/newton.jl")
 include("./algorithms/de.jl")
 
-function generate_reference_solutions()
+function generate_exact_solutions()
     for matname in ["ex5", "pores_1"]
         A_f64 = collect(mmread("matrix/$(matname).mtx"))
         if matname == "pores_1"
