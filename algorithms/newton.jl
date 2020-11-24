@@ -34,14 +34,15 @@ end
 
 
 """
-prootm_newton(A; tol=eps(), maxiter=50)
+prootm_newton(A, p; tol=eps(), maxiter=50)
 
 Computing the (principal) pth root of A
 based on the inverse Newton iteration [Alg. 7.14, 1]
 
 [1]: Functions of matrices: Theory and computation. SIAM, Philadelphia, PA, 2008.
 """
-function prootm_newton(A::Array{TA,2}; tol=eps(), maxiter=50) where {TA}
+function prootm_newton(A::Array{TA,2}, p; tol=eps(), maxiter=50) where {TA}
+    n = size(A, 1)
     B = sqrtm_newton(A, tol=tol, maxiter=maxiter)
     B .= sqrtm_newton(B, tol=tol, maxiter=maxiter)
     θ = opnorm(B, 1)
