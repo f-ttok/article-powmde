@@ -2,22 +2,22 @@
 cd(@__DIR__)
 
 include("test1.jl")
-generate_solutions()
+generate_exact_solutions()
 main()
 
 
 include("test2.jl")
+generate_exact_solutions()
 main()
 
 
 include("test3.jl")
-generate_solutions()
+generate_exact_solutions()
 main()
 
 
 include("test4.jl")
-generate_matrices()
-generate_solutions()
+generate_exact_solutions()
 main()
 
 

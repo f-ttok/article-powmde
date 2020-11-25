@@ -81,3 +81,5 @@ function matrices_test5()
 end
 
 
+matrices_test4()
+matrices_test5()

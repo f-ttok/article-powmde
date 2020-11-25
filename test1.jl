@@ -6,6 +6,8 @@ using Printf
 using SparseArrays
 
 
+cd(@__DIR__)
+
 include("./algorithms/newton.jl")
 include("./algorithms/de.jl")
 
