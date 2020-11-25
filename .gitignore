@@ -9,9 +9,11 @@ matrix/ex5.mtx
 matrix/fv3.mtx
 matrix/lund_b.mtx
 matrix/nos4.mtx
+matrix/poisson200.mtx
 matrix/pores_1.mtx
 matrix/s2rmt3m1.mtx
 matrix/test1_*
 matrix/test2_*
 matrix/test3_*
+matrix/test4_A_*
 matrix/TSOPF_RS_b9_c6.mtx
