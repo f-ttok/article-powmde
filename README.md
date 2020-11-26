@@ -38,3 +38,10 @@ If you want to download, extract and put these matrices automatticaly, run `juli
 In order to generate test matrices, `SPD_(well|ill)`, `NS_(well|ill)`, `poisson200`, run `generate_matrices.jl`.
 
 In order to run all tests, run `julia run_alltests.jl` in your terminal.
+
+
+## Some Comments
+### Test 5
+Julia compile the code before running the code for the first time.
+Hence, it may affect the computational time.
+In order to avoid the effect, we measure the computational time twice for `poisson200` and `cell1`.
