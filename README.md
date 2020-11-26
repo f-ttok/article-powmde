@@ -5,7 +5,8 @@ This repository includes source for experiments in the preprint [Computing the m
 ## How to run the code?
 
 1. Install Julia and set path.
-1. `git clone https://github.com/f-ttok/article-powmde.git`
+1. `git clone https://github.com/f-ttok/article-powmde.git` (or download zip file from https://github.com/f-ttok/article-powmde/archive/master.zip, and extract the zip file.)
+1. `cd article-powmde`
 1. `julia install_packages.jl`
 1. `julia download_matrices.jl`
 1. `julia generate_matrices.jl`
