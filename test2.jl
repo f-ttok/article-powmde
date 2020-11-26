@@ -66,7 +66,7 @@ function main()
                 Data[1,j+1] = "$(matname)_$(αx10)_$(log10ϵ)_err"
                 errors, estimates, m_list = powm_de(A_tilde, α, ϵ_tilde, m0=8, Exact=Exact_tilde)
                 n = length(estimates)
-                Data[2:n+1, j] .= convert(Array{Float64,1}, estimates / c^α / norm_Exact)
+                Data[3:n+2, j] .= convert(Array{Float64,1}, estimates / c^α / norm_Exact)
                 n = length(errors)
                 Data[2:n+1, j+1] .= convert(Array{Float64,1}, errors / c^α / norm_Exact)
                 j += 2

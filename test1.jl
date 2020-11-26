@@ -90,8 +90,8 @@ function main()
             i_interval += 1
 
             Data[1,j] = "$(matname)_$(log10ϵ)_svdvals"
-            Data[1,j+1] = "$(matname)_$(log10ϵ)_arpack"
-            Data[1,j+2] = "$(matname)_$(log10ϵ)_arpackmod"
+            Data[1,j+1] = "$(matname)_$(log10ϵ)_Arpack"
+            Data[1,j+2] = "$(matname)_$(log10ϵ)_Arpackmod"
 
             print("\tcomputing A^0.5 ")
             for (i, m) in enumerate(m_list)
