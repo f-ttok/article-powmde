@@ -22,4 +22,5 @@ main()
 
 
 include("test5.jl")
-main()
+test5_spd()
+test5_general()

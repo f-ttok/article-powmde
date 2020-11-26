@@ -11,8 +11,6 @@ include("./algorithms/newton.jl")
 function generate_exact_solutions()
     for matname in ["SPD_well", "SPD_ill", "NS_well", "NS_ill"]
         println("--- $(matname) ---")
-        # A_f64 = collect(mmread("matrix/$(matname).mtx"))
-        # writedlm("matrix/test4_A_$(matname).txt", A_f64)
         A_f64 = readdlm("matrix/test4_A_$(matname).txt")
         A = convert(Array{BigFloat,2}, A_f64)
         n = size(A,1)

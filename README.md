@@ -48,5 +48,5 @@ Hence, it may affect the computational time.
 In order to avoid the effect, we measure the computational time twice for `poisson200` and `cell1`.
 
 ### Other comments
-We plot figures by using Python with Matplotlib and Jupyter notebook.
+We plot figures by using Jupyter notebook.
 Their results are in `notebooks` directory.
