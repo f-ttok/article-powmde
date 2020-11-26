@@ -33,6 +33,7 @@ function main()
     Data[2:end,1] .= m_list
     α = 0.5
     j = 2
+    ϵ = 2.0^(-53)
     for matname in ["lund_b", "bcsstk04", "nos4"]
         println("----- $(matname) -----")
         A = readdlm("matrix/test3_A_$(matname).txt")
@@ -47,7 +48,8 @@ function main()
 
         μ = log(λmax_tilde)^2 + π^2 + 1
         d0 = asin(sqrt((μ - sqrt(μ^2 - 4π^2)) / 2))
-        l, r = get_interval(λmax_tilde, λmax_tilde, α, 2.0^(-53)*c^α*λmax_tilde^α)
+        ϵ_tilde = ϵ * c^α * λmax_tilde^α
+        l, r = get_interval(λmax_tilde, λmax_tilde, α, ϵ_tilde)
         @show 2π*d0/(r-l)
 
         Data[1,j] = "$(matname)_A"
@@ -55,9 +57,9 @@ function main()
         for (i, m) in enumerate(m_list)
             print("$(m) ")
             X = powm_de(A_tilde, α, m, l, r)
-            Data[i+1,j] = opnorm(X - Exact_tilde) / c^α
+            Data[i+1,j] = opnorm(X - Exact_tilde) / λmax_tilde^α
             X = powm_de(A1_tilde, α, m, l, r)
-            Data[i+1,j+1] = opnorm(X - Exact1_tilde) / c^α
+            Data[i+1,j+1] = opnorm(X - Exact1_tilde) / λmax_tilde^α
         end
         j += 2
         println()
