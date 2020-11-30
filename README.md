@@ -36,7 +36,7 @@ To install these packages, run `julia install_packages.jl` in your terminal.
 The test matrices have to be in `matrix` directory in `.mtx` format, for example, `matrix/ex5.mtx`.
 If you want to download, extract and put these matrices automatticaly, run `julia download_matrices.jl`.
 
-In order to generate test matrices, `SPD_(well|ill)`, `NS_(well|ill)`, `poisson200`, run `generate_matrices.jl`.
+In order to generate test matrices, `SPD_(well|ill)`, `NS_(well|ill)`, `poisson200`, run `julia generate_matrices.jl`.
 
 In order to run all tests, run `julia run_alltests.jl` in your terminal.
 
