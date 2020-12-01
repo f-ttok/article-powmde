@@ -1,4 +1,4 @@
 using Pkg
 Pkg.add([
-    "Arpack", "Elliptic", "FastGaussQuadrature", "SuiteSparse"
+    "Arpack", "Elliptic", "FastGaussQuadrature", "MatrixMarket","SuiteSparse"
 ])

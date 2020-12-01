@@ -1,6 +1,6 @@
 # article-powmde
 
-This repository includes source for experiments in the preprint [Computing the matrix fractional power based on the double exponential formula, arXiv: hoge.fuga](https://example.com/).
+This repository includes programs for experiments in the preprint [Computing the matrix fractional power based on the double exponential formula, arXiv: hoge.fuga](https://example.com/).
 
 ## How to run the code?
 
@@ -13,14 +13,14 @@ This repository includes source for experiments in the preprint [Computing the m
 1. `julia run_alltests.jl`
 
 ### Details
-Our code is tested on the following environment:
+Our environment is as follows:
 
 - OS: Linux (Ubuntu 20.04)
 - CPU: Intel(R) Core(TM) i7-9700K
 - Memory: 16GB
 - Julia version: 1.5.1
 
-The source code is written in [Julia Language](https://julialang.org/).
+The programs are written in [Julia Language](https://julialang.org/).
 Hence, Julia Language has to be installed in your computer.
 
 In addition, some additional packages of Julia are required.
@@ -48,5 +48,5 @@ Hence, it may affect the computational time.
 In order to avoid the effect, we measure the computational time twice for `poisson200` and `cell1`.
 
 ### Other comments
-We plot figures by using Jupyter notebook.
+Figures are plotted via Jupyter notebook.
 Their results are in `notebooks` directory.
