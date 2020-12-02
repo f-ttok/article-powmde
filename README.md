@@ -9,6 +9,7 @@ This repository includes programs for experiments in the preprint [Computing the
 1. `cd article-powmde`
 1. `julia install_packages.jl`
 1. `julia download_matrices.jl`
+    - If you use Windows, uncomment l.28 and l.31.
 1. `julia generate_matrices.jl`
 1. `julia run_alltests.jl`
 
