@@ -2,7 +2,7 @@
 
 This repository includes programs for experiments in the preprint [Computing the matrix fractional power based on the double exponential formula, arXiv: hoge.fuga](https://example.com/).
 
-## How to run the code?
+## How to run the programs?
 
 1. Install Julia and set path.
 1. `git clone https://github.com/f-ttok/article-powmde.git` (or download zip file from https://github.com/f-ttok/article-powmde/archive/master.zip, and extract the zip file.)
