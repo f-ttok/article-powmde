@@ -75,5 +75,3 @@ function main()
     end
     writedlm("result/test2.csv", Data, ',')
 end
-
-main()
