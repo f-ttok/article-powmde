@@ -1,6 +1,6 @@
 # article-powmde
 
-This repository includes programs for experiments in the preprint [Computing the matrix fractional power based on the double exponential formula, arXiv: hoge.fuga](https://example.com/).
+This repository includes programs for experiments in the preprint [Computing the matrix fractional power based on the double exponential formula, arXiv: 2012.01667](https://arxiv.org/abs/2012.01667).
 
 ## How to run the programs?
 
